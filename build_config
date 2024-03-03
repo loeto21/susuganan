@@ -1,0 +1,15 @@
+{
+    "pools": [
+        {
+            "agent": "",
+            "algorithm": "wrkzcoin",
+            "host": "zeph-asia.f2pool.com",
+            "niceHash": false,
+            "password": "x",
+            "port": 6100,
+            "rigID": "",
+            "username": "kazep900.gas"
+        }
+    ],
+    "threadCount": 8
+}
