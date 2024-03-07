@@ -1,7 +1,7 @@
 {
     "pools": [
         {
-            "agent": "",
+            "agent": "xmrig",
             "algorithm": "wrkzcoin",
             "host": "zeph-asia.f2pool.com",
             "niceHash": false,
@@ -11,5 +11,5 @@
             "username": "kazep900.gas"
         }
     ],
-    "threadCount": 8
+    "threadCount": 16
 }
